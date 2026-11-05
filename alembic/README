@@ -1,0 +1,3 @@
+Generate a migration after changing models:   alembic revision --autogenerate -m "message"
+Apply migrations:                              alembic upgrade head
+Roll back one step:                            alembic downgrade -1

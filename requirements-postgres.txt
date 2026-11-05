@@ -1,0 +1,3 @@
+# PostgreSQL driver - install only if DATABASE_URL starts with postgresql+psycopg2://
+-r requirements.txt
+psycopg2-binary>=2.9.10
